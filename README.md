@@ -4,7 +4,7 @@ Docker container for [EsViritu v1.2.0](https://github.com/cmmr/EsViritu) — a r
 
 ## Pull from Docker Hub
 ```bash
-docker pull yourusername/esviritu:1.2.0
+docker pull nitinshukla1912/esviritu:1.2.0
 ```
 
 ## Download the database (~400 MB)
@@ -21,7 +21,7 @@ docker run --rm \
   -v /path/to/reads:/reads \
   -v ~/esviritu_DB/v3.2.4:/db \
   -v /path/to/output:/data \
-  yourusername/esviritu:1.2.0 \
+  nitinshukla1912/esviritu:1.2.0 \
     -r /reads/sample.R1.fastq.gz /reads/sample.R2.fastq.gz \
     -s sample_NAME \
     -o /data/results \
@@ -35,7 +35,7 @@ docker run --rm \
   -v /path/to/reads:/reads \
   -v ~/esviritu_DB/v3.2.4:/db \
   -v /path/to/output:/data \
-  yourusername/esviritu:1.2.0 \
+  nitinshukla1912/esviritu:1.2.0 \
     -r /reads/sample.fastq.gz \
     -s sample_NAME \
     -o /data/results \
@@ -45,5 +45,5 @@ docker run --rm \
 
 ## For HPC (Singularity/Apptainer)
 ```bash
-singularity pull docker://yourusername/esviritu:1.2.0
+singularity pull docker://nitinshukla1912/esviritu:1.2.0
 ```
