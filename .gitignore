@@ -1,0 +1,6 @@
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+test_output/
+*.tar.gz
