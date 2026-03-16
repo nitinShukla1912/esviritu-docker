@@ -4,6 +4,10 @@ Docker container for [EsViritu v1.2.0](https://github.com/cmmr/EsViritu) — a r
 
 ## Pull from Docker Hub
 ```bash
+docker pull nitinshukla1912/esviritu:latest
+
+or
+
 docker pull nitinshukla1912/esviritu:1.2.0
 ```
 
